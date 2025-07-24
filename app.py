@@ -45,7 +45,7 @@ def ping_servers():
             log_message(message)
         finally:
             # Wait for 10 minutes before sending the next request
-            time.sleep(600)
+            time.sleep(720)
 
 @app.route('/ping', methods=['GET'])
 def handle_ping():
